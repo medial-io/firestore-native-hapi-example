@@ -1,0 +1,29 @@
+{
+  "name": "@medial/firestore-native-hapi-example",
+  "version": "0.0.1",
+  "description": "An example that demonstrates building REST services with firestore and hapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "firestore",
+    "hapi",
+    "gcp",
+    "local"
+  ],
+  "author": "Amit Kirdatt",
+  "license": "MIT",
+  "devDependencies": {
+    "@firebase/testing": "^0.19.5"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.0",
+    "firebase-admin": "^8.12.1",
+    "hapi-swagger": "^13.0.1",
+    "uuid": "^8.1.0"
+  }
+}
